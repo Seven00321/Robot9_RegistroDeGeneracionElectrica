@@ -1,0 +1,186 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1474,2132" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Registro de Generación Electrica" sap:VirtualizedContainerService.HintSize="608,2067" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="admin" Name="userAdmin" />
+      <Variable x:TypeArguments="x:String" Default="Inicio00." Name="passwordAdmin" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Usando la App. Sistema Comercial" sap:VirtualizedContainerService.HintSize="546,1956" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Sistema Comercial - Inicio de Sesión" sap:VirtualizedContainerService.HintSize="484,1316" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="87b48d26-7ca6-4145-a352-6fd8e8699863" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,985" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Input - USER" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="87b48d26-7ca6-4145-a352-6fd8e8699863" Text="[userAdmin]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable CvElementArea="462, 91, 183, 28" CvType="InputBox" DesignTimeRectangle="462, 92, 182, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'practicanteTIC2'" FullSelectorArgument="&lt;wnd ctrlname='paPrincipal' /&gt;&lt;wnd ctrlname='txtUsuario' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='paPrincipal' /&gt;&lt;wnd ctrlname='txtUsuario' /&gt;" Guid="11a85c85-cd0e-46d2-8c0c-8224ca7f57b6" InformativeScreenshot="0042faba564acb6da382bb102d848b21.png" ScopeSelectorArgument="&lt;wnd app='egecomercial.exe' ctrlname='frmLogin' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Input - CONTRASEÑA" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="87b48d26-7ca6-4145-a352-6fd8e8699863" Text="[passwordAdmin]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable CvElementArea="461, 121, 185, 29" CvType="InputBox" DesignTimeRectangle="463, 123, 182, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'WindowsForms10.EDIT.app…'" FullSelectorArgument="&lt;wnd ctrlname='paPrincipal' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='paPrincipal' /&gt;&lt;wnd cls='WindowsForms10.EDIT.*' /&gt;" Guid="ef786c21-987a-413d-8049-a07e21f39ecc" InformativeScreenshot="fe4182f05ae8577c02711a784a27e6a5.png" ScopeSelectorArgument="&lt;wnd app='egecomercial.exe' ctrlname='frmLogin' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'Ingresar'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="87b48d26-7ca6-4145-a352-6fd8e8699863" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable CvTextArea="675, 148, 40, 14" CvTextArgument="Ingresar" CvType="Text" DesignTimeRectangle="656, 89, 78, 79" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Ingresar'" FullSelectorArgument="&lt;wnd ctrlname='paPrincipal' /&gt;&lt;wnd ctrlname='btnIngresar' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='paPrincipal' /&gt;&lt;wnd ctrlname='btnIngresar' check:text='Ingresar' /&gt;" Guid="a9e9a209-1ffa-4e89-8891-edd91e0edad8" InformativeScreenshot="9a4b59095eff7538dc1127b389cd9432.png" ScopeSelectorArgument="&lt;wnd app='egecomercial.exe' ctrlname='frmLogin' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'Sistema Comercial'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="87b48d26-7ca6-4145-a352-6fd8e8699863" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable CvTextArea="26, 303, 95, 12" CvTextArgument="Sistema Comercial" CvType="Text" DesignTimeRectangle="8, 251, 133, 101" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Sistema Comercial'" FullSelectorArgument="&lt;wnd ctrlname='paBotones' /&gt;&lt;ctrl name='Sistema Comercial' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='paBotones' /&gt;&lt;ctrl name='Sistema Comercial' role='push button' automationid='' check:fulltext='Sistema Comercial' /&gt;" Guid="f702704d-3845-4d12-8670-aefd71a35c3b" InformativeScreenshot="711c1238a7ceae52d2f6666501df9fe6.png" ScopeSelectorArgument="&lt;wnd app='egecomercial.exe' ctrlname='frmLogin' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="421, 247, 757, 365" FilePath="\\es107dev\EGEComercial_Prueba\egecomercial.exe" IconBase64="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" InformativeScreenshot="4beeaefaf90e45837f20014b7a5d609b.png" Selector="&lt;wnd app='egecomercial.exe' ctrlname='frmLogin' /&gt;" />
+        </uix:NApplicationCard.TargetApp>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </uix:NApplicationCard>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Sistema Comercial - DASHBOARD" sap:VirtualizedContainerService.HintSize="484,489" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="6a9111ea-86ac-4679-a013-50a4943d7486" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,198" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,85" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Bienvenido al DASHBOARD&quot;]" />
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1616, 876" FilePath="\\es107dev\EGEComercial_Prueba\egecomercial.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALCSURBVFhHxZbfS1NhGMffFLyqG6+8CfoTuqz/oMsuuukqL/JC+kG/jLBFNokKodKbZYUEVoTUYqhhrEwQZ9IPShlNZFlDSFe61jZP4M55er/n3bPOccew7d38wpcdtnE+n/O87zmb0JmbZwR1nRB05Zggf6sg32FBhY/0p++iIPT2BUGBdtWXAUFT9wS9vat6v0OTxIPLgtaXYdMPVT/0u+uUaDtUgQTDogPuMtjZf0kcP1imBATmBksFaiYBga8vNi8ReyJo/pmg1BtBv2OC1uKqQ3fKEAB8XK4zBLwk5kKCEs8FZWf3krlyicxsUDUdUE02lw9HIDAd/CuAfn8tyFhoIcsYJcov2DVXJ8jMPFXwnzekjL9yOAKB2WG3gDHbQGRl7VpGhKzcEFm/bpGV8herDY7xx0fcAvnkUQXPDZKV6XeBtcERHj8EWALjt1ZHFTzd44Yvn7Th+YXdFHlcIRzh8bMAasTqlcAGcPPbPpqR39MCx/gh4JTIL8nNh6v3gi8doMX3TTa8u03T+J0CGL+Z7pVX363AK+1k/WhVcNnc5z1FeH+noOGeMiUAD/cqgai8z1nC+CTX3157KcBX7WiPr9EGrm/htJsPjx8CTol8YheZqa5SuFx3Ljbg/OROPXeAUyIZkeMHbPmUJ5ibmtlRhGvZByyR+VgQ2ACM4t6PBLcX4RXtAw5L4OReUC5GHxtroqunG2ygVwun/P9Awqvhvkb5zO+w4V6FdC6q4YnIARSbEX9OcIzloLUvUuJcCVg7HAHUBZdxwhlcFTgncF4BLGOsCHeCGT4xUK8ffk3+3QYA624u7i8Bo4C/C1UBjkBgfcNyzAxGoyNVgjsDMPYCXhmMxl/V0dnmKsMRgEPX3QKJ8TrytdQAzgF86pGCL05uo84jNYQjEJiWP1KA47jwdu3CAlsCRwDeMjiiDy7EHxSOm7tQUrABAAAAAElFTkSuQmCC" InformativeScreenshot="753ef96777c6b8e09684081044f1edfa.png" Selector="&lt;wnd app='egecomercial.exe' ctrlname='fmMenuPrincipal' /&gt;" />
+        </uix:NApplicationCard.TargetApp>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
